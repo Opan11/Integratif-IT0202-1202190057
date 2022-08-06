@@ -88,3 +88,7 @@ Link **RSS** yang digunakan pada project ini adalah sebagai berikut
 - https://www.suara.com/rss/otomotif
 - http://rss.tempo.co/bisnis
 - https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml
+
+
+Link Video:
+https://www.youtube.com/watch?v=CiN6LZNqSwg&t=65s
