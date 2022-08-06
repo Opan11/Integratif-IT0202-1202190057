@@ -1,64 +1,52 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+Project 1 Tubes
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Novandy Prakoso (1202190057)
 
-## About Laravel
+Installation Laravel 8 on windows
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+1. Before installation Laravel 8, first check if XAMPP and Composer are already installed
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![Screenshot 2022-05-31 121039](https://user-images.githubusercontent.com/94926477/171101053-1e93b681-068e-49eb-ab04-2e7ce3414e4d.png)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+![Screenshot 2022-05-31 115251](https://user-images.githubusercontent.com/94926477/171101101-ef730477-6aac-441f-ba5f-d714b8d8f6e3.png)
 
-## Learning Laravel
+2. If XAMPP and Composer are already installed, then we go to installation Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+   1. First go to Command Prompt type "cmd" then click "OK"
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+       ![Screenshot 2022-05-31 115413](https://user-images.githubusercontent.com/94926477/171101159-29ebc74c-fd43-44f2-84b4-af625c8dde07.png)
 
-## Laravel Sponsors
+   2. Go to the directory that has been created
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+      ```markdown
+      cd \xampp\htdocs
+      ```
 
-### Premium Partners
+        ![Screenshot 2022-05-31 115514](https://user-images.githubusercontent.com/94926477/171101306-d10fcf95-958e-469a-b607-87545c60e3bf.png)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+   3. Then use the command below to install Laravel
 
-## Contributing
+      ```markdown
+      composer create-project --prefer-dist laravel/laravel Tubes
+      ```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+      ![Screenshot 2022-05-31 115845](https://user-images.githubusercontent.com/94926477/171101323-eb2f748f-b4ea-4b3b-b916-4565879d7410.png)
 
-## Code of Conduct
+   4. After the Laravel file download process is complete, there will be a new folder in the file server directory with a name according to the project name that you previously specified in the /xampp/htdocs folder. At this time i named my folder with the name "Tubes"
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+      ![Screenshot 2022-05-31 115930](https://user-images.githubusercontent.com/94926477/171101344-693669e4-0b69-4969-979b-6b85e6a5f588.png)
 
-## Security Vulnerabilities
+   5. To ensure that Laravel is successfully installed and ready to use. use the command below to navigate to the directory you created earlier.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+      ```markdown
+      Php artisan serve
+      ```
 
-## License
+      ![Untitled](https://user-images.githubusercontent.com/94926477/171101359-170fa8de-f564-4f0f-be1a-a07ec29e7249.png)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+   6. You will be directed to the server address, which is 127.0.0.1:8000.
+      then open the address in your browser
+
+      ![Screenshot 2022-05-31 120125](https://user-images.githubusercontent.com/94926477/171101414-9a2d48d5-ea47-449f-9864-875966b8a499.png)
+   7. Laravel ready use.
+
