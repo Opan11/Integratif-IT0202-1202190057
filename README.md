@@ -50,3 +50,41 @@ Installation Laravel 8 on windows
       ![Screenshot 2022-05-31 120125](https://user-images.githubusercontent.com/94926477/171101414-9a2d48d5-ea47-449f-9864-875966b8a499.png)
    7. Laravel ready use.
 
+## Struktur Database
+
+Database yang digunakan pada project ini terdiri dari 3 tabel dinamis (kemungkinan berubah dalam masa development) yang itu **tabel posts** yang akan menangani isi dari berita yang akan di tampilkan, **tabel categories** yang akan menangani data berdasarkan kategori dari rss yang didapat, dan **tabel user** yang akan menangani data sumber dari rss yang digunakan dengan konfigurasi isi sebagai berikut:
+
+**Tabel posts**
+
+- id (Primary Key)
+- category_id (Foreign Key)
+- user_id (Foreign Key)
+- img_url
+- title
+- slug
+- excerpt
+- body
+- created_at
+- update_at
+
+**Tabel categories**
+
+- id
+- name
+- slug
+- created_at
+- updated_at
+
+**Tabel User**
+
+- id
+- name
+- username
+- created_at
+- updated_at
+
+Link **RSS** yang digunakan pada project ini adalah sebagai berikut
+
+- https://www.suara.com/rss/otomotif
+- http://rss.tempo.co/bisnis
+- https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml
